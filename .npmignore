@@ -1,0 +1,5 @@
+**/tests/**
+node_modules
+.vscode
+tsconfig.json
+index.ts

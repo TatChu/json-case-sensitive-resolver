@@ -1,0 +1,48 @@
+{
+  "name": "json-case-sensitive-resolver",
+  "version": "0.0.3",
+  "description": "JSON converter with case-sensitive resolver",
+  "main": "disk/index.js",
+  "scripts": {
+    "test": "ts-mocha 'tests/*.spec.ts'",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TatChu/json-case-sensitive-resolver.git"
+  },
+  "keywords": [
+    "json-converter",
+    "json-parse",
+    "json",
+    "jsonify",
+    "case-sensitive",
+    "json-helper",
+    "json-parser",
+    "snake_case",
+    "camelCase",
+    "PascalCase",
+    "kebap-case"
+  ],
+  "author": "Ryan - Chu Nguyen <tatchu.it@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TatChu/json-case-sensitive-resolver/issues"
+  },
+  "homepage": "https://github.com/TatChu/json-case-sensitive-resolver#readme",
+  "devDependencies": {
+    "@types/chai": "^4.3.1",
+    "@types/expect": "^24.3.0",
+    "@types/mocha": "^9.1.1",
+    "@types/node": "^17.0.41",
+    "@types/sinon": "^10.0.11",
+    "chai": "^4.3.6",
+    "ts-mocha": "^10.0.0",
+    "ts-node": "^10.8.1",
+    "typescript": "^4.7.3"
+  },
+  "dependencies": {},
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  }
+}
