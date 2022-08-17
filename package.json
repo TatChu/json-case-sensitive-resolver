@@ -1,6 +1,6 @@
 {
   "name": "json-case-sensitive-resolver",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "JSON converter with case-sensitive resolver",
   "main": "dist/index.js",
   "scripts": {

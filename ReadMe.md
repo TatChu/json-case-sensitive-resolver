@@ -39,7 +39,7 @@ Example:
     import JsonHelper from 'json-case-sensitive-resolver'
 
     let jsonString = '{"this-is-kebap-case": "thanks for reading me"}';
-    const parsedPascalCaseObj = JsonHelper.parseToPascalCase(jsonString, {parseFromKebapCase: true}); 
+    const parsedPascalCaseObj = JsonHelper.parseToPascalCase(jsonString, { parseFromKebapCase: true }); 
     //>>> { ThisIsKebapCase: "thanks for reading me" }
     ```
 
@@ -50,7 +50,7 @@ Example:
     import JsonHelper from 'json-case-sensitive-resolver'
 
     let jsonString = '{"this_is_snake_case": "thanks for reading me"}';
-    const parsedPascalCaseObj = JsonHelper.parseToCamelCase(jsonString, {parseFromSnakeCase: true}); 
+    const parsedPascalCaseObj = JsonHelper.parseToCamelCase(jsonString, { parseFromSnakeCase: true }); 
     //>>> { thisIsSnakeCase: "thanks for reading me" }
     ```
 
@@ -60,6 +60,6 @@ And yes, you can completely combine two option together
 import JsonHelper from 'json-case-sensitive-resolver'
 
 let jsonString = '{"this_is_snake_case": "snake", "this-is-kebap-case": "kebap"}';
-const obj = JsonHelper.parseToCamelCase(jsonString, {parseFromSnakeCase: true, parseFromKebapCase: true}); 
+const obj = JsonHelper.parseToCamelCase(jsonString, { parseFromSnakeCase: true, parseFromKebapCase: true }); 
 //>>> { thisIsSnakeCase: "snake", thisIsKebapCase: "kebap" }
 ```
